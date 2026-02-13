@@ -14,7 +14,7 @@ def printtwoodd(arr, size):
     setbit = 0
     
     for i in range(1,size):
-        xorof2 = xorof2 ^ arr[1]
+        xorof2 = xorof2 ^ arr[i]
 
     setbit = xorof2 & ~(xorof2 - 1)
     for i in range(size):
